@@ -1,6 +1,6 @@
 # reorganize-results
 ## Introduction
-Reorganizes list of lab results to an n x m array of result where n is the number of patients and m is the number of different study types
+Tabulates list of lab results to an n x m array of result where n is the number of patients and m is the number of different study types
 
 The latter is easier to import for statistical analysis.
 
@@ -19,7 +19,7 @@ PATIENT_ID,STUDY_NAME,RESULT_VALUE
 
 ## Format of output
 ```
-,Hb,Plt,WBC
+PATIENT_ID,Hb,Plt,WBC
 1,9.1,130,2.0
 2,11.1,210,4.0
 ```
