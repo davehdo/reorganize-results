@@ -1,8 +1,5 @@
 # reorganize-results
-## Introduction
-Tabulates list of lab results to an n x m array of result where n is the number of patients and m is the number of different study types
-
-The latter is easier to import for statistical analysis.
+Tabulates list of lab results to an n x m array (where n is the n_patients and m is n_study_types), which can be imported for statistical analysis.
 
 This is written in ruby
 
